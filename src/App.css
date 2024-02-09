@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.btn {
+  padding: 12px;
+  width: 360px;
+  background-color: rgb(21, 45, 255);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+.form {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfb
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form_into {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: white;
+  width: 380px;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 5px rgba(192, 191, 191, 0.7);
+
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.email,
+.password,
+.birthday {
+  padding: 12px;
+  width: 100%; 
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 17px;
+  margin-top: 10px;
+  box-sizing: border-box; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.images {
+  width: 140px;
+  margin-bottom: 20px;
 }
+
+.section_email,
+.section_password,
+.section_birthday
+{
+  width: 360px; 
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.section_terms{
+  margin-bottom: 10px;
+}
+
+
+
